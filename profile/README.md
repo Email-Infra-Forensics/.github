@@ -6,7 +6,7 @@
 
 <div align="center">
 
-> **Email-Infra-Forensics** es un colectivo y ecosistema Open-Source especializado en la auditoría estructural y validación forense de infraestructuras de correo electrónico. Proveemos herramientas para curación de datos ( $\color{#ec4899}{\textsf{Data Ingestion}}$ ), análisis de topología ( $\color{#8b5cf6}{\textsf{Traceroute & ASN}}$ ), validación criptográfica ( $\color{#ec4899}{\textsf{SPF/DKIM/DMARC}}$ ) y generación de firmas algorítmicas mediante huellas digitales de infraestructura ( $\color{#8b5cf6}{\textsf{Email Trust Index}}$ ).
+> **Email-Infra-Forensics** es un colectivo y ecosistema Open-Source especializado en la auditoría estructural y validación forense de infraestructuras de correo electrónico. Proveemos herramientas para curación de datos ( $\color{#ec4899}{\textsf{Data Ingestion}}$ ), análisis de topología ( $\color{#8b5cf6}{\textsf{Traceroute y ASN}}$ ), validación criptográfica ( $\color{#ec4899}{\textsf{SPF/DKIM/DMARC}}$ ) y generación de firmas algorítmicas mediante huellas digitales de infraestructura ( $\color{#8b5cf6}{\textsf{Email Trust Index}}$ ).
 
 </div>
 
