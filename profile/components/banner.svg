@@ -1,0 +1,53 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0c1b"/>
+      <stop offset="100%" stop-color="#1a1528"/>
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="300" fill="url(#bg-grad)" rx="15" />
+  <g stroke="#3a2b58" stroke-width="1.5" opacity="0.6">
+    <line x1="100" y1="50" x2="300" y2="100" />
+    <circle cx="100" cy="50" r="4" fill="#8b5cf6"/>
+    <circle cx="300" cy="100" r="4" fill="#8b5cf6"/>
+    <line x1="300" y1="100" x2="250" y2="250" />
+    <circle cx="250" cy="250" r="4" fill="#8b5cf6"/>
+    <line x1="900" y1="200" x2="1100" y2="250" />
+    <circle cx="900" cy="200" r="4" fill="#8b5cf6"/>
+    <circle cx="1100" cy="250" r="4" fill="#8b5cf6"/>
+    <line x1="900" y1="200" x2="1000" y2="80" />
+    <circle cx="1000" cy="80" r="4" fill="#8b5cf6"/>
+  </g>
+  <g transform="translate(150, 75)">
+    <path d="M20 30 L180 30 C191 30 200 39 200 50 L200 130 C200 141 191 150 180 150 L20 150 C9 150 0 141 0 130 L0 50 C0 39 9 30 20 30 Z" fill="#2d2446" stroke="url(#accent-grad)" stroke-width="4"/>
+    <path d="M0 30 L100 100 L200 30" fill="none" stroke="url(#accent-grad)" stroke-width="4" stroke-linejoin="round"/>
+    <g transform="translate(75, 45)" filter="url(#glow)">
+      <rect x="10" y="25" width="30" height="25" rx="5" fill="#ec4899"/>
+      <path d="M15 25 V15 C15 9.5 19.5 5 25 5 C30.5 5 35 9.5 35 15 V25" fill="none" stroke="#ec4899" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="25" cy="37" r="3" fill="#fff"/>
+    </g>
+    <g transform="translate(110, 80)">
+      <circle cx="30" cy="30" r="20" fill="none" stroke="#8b5cf6" stroke-width="6" filter="url(#glow)"/>
+      <line x1="44" y1="44" x2="70" y2="70" stroke="#8b5cf6" stroke-width="8" stroke-linecap="round" filter="url(#glow)"/>
+    </g>
+  </g>
+  <g transform="translate(420, 160)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-size="64" font-weight="900" fill="#ffffff" letter-spacing="1">
+      Email-Infra-<tspan fill="url(#accent-grad)">Forensics</tspan>
+    </text>
+    <text x="5" y="45" font-family="system-ui, sans-serif" font-size="20" font-weight="400" fill="#a78bfa" letter-spacing="3">
+      OPEN-SOURCE SECURITY RESEARCH
+    </text>
+  </g>
+</svg>
